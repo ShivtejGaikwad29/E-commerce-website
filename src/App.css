@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn{
+  border-radius: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+}
+
+.btn:hover {
+  border-radius: 8px;
+  background-color: #3ca877; /* Example color */
+  color: white;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.navbar {
+  background-color: #007bff;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  background-color: #dfbd8b;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40;
+  justify-content: space-between;
+  border: 1.5px solid #454d55;
+  color: white;
+  height: 100%;
+}
+.card-title {
+  color: #f8f9fa;
+}
+.btn-primary {
+  background-color: #ff9800;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #e68900;
+}
+
+.card-body {
+  flex-grow: 1; 
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 200px; 
+  object-fit: contain; 
+  background-color: white; 
+}
+
+#login-btn:hover{
+  background-color: #e68900;
 }
